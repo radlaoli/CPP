@@ -1,0 +1,4 @@
+Linguagens: interpretadas x compiladas
+
+interpretador: abre arquivo e verifica linha a linha
+compilador: verifica todo o arquivo 
