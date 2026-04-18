@@ -23,19 +23,20 @@ int main()
     Produto prod[5];
     int expensiveId = 0;
     float valorEstoque = 0;
+    /*
+        for (int i = 0; i < 5; i++)
+        {
+            cin >> prod[i].nome;
+            cin >> prod[i].preco;
+            cin >> prod[i].quantidade;
+        }  */
 
-    for (int i = 0; i < 5; i++)
-    {
-        cin >> prod[i].nome;
-        cin >> prod[i].preco;
-        cin >> prod[i].quantidade;
-    } /*
-     prod[0] = {"Monitor", 1200.0, 10};
-     prod[1] = {"Teclado", 250.0, 20};
-     prod[2] = {"Mouse", 150.0, 15};
-     prod[3] = {"Headset", 400.0, 8};
-     prod[4] = {"Mousepad", 80.0, 30};
-  */
+    prod[0] = {"Monitor", 1200.0, 10};
+    prod[1] = {"Teclado", 250.0, 20};
+    prod[2] = {"Mouse", 150.0, 15};
+    prod[3] = {"Headset", 400.0, 8};
+    prod[4] = {"Mousepad", 80.0, 30};
+
     for (int i = 0; i < 5; i++)
     {
         valorEstoque += prod[i].preco;
